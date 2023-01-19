@@ -1,0 +1,11 @@
+.history {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 359px;
+    top: 59px;
+}
+
+.icon{    
+    filter: var(--icon-filter);
+}

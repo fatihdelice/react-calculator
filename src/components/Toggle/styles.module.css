@@ -1,0 +1,30 @@
+.toggle {
+    position: absolute;
+    width: 122px;
+    height: 44px;
+    left: 151px;
+    top: 52px;
+    filter: drop-shadow(0px 0px 20px rgba(129, 129, 129, 0.15));
+    background: var(--toggle-bg);
+    border-radius: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.switch {
+    position: absolute;
+    width: 68px;
+    height: 44px;
+    background: var(--switch-bg);
+    border-radius: 40px;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: var(--switch-left);
+}
+
+.sun, .moon{
+    z-index: 999;
+    filter: var(--icon-filter);
+}
