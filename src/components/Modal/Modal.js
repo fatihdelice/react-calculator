@@ -9,11 +9,11 @@ export default function Modal() {
     const { history } = useHistory();
     const { isActive, setIsActive } = useModal();
     
-    // 3 items in history
+    // last 3 items in history
     // const [filteredList, setFilteredList] = useState([]);
 
     // useEffect(() => {
-    //     setFilteredList(history.slice(0, 3).reverse());
+    //     setFilteredList(history.slice(-3).reverse());
     // }, [history]);
 
     const handleClose = () => {
